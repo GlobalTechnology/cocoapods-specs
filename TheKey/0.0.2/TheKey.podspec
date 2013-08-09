@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://thekey.me/"
   s.license      = { :type => 'Modified BSD', :file => 'LICENSE.txt' }
   s.author       = { "Brian Zoetewey" => "brian.zoetewey@ccci.org" }
-  s.source       = { :git => "git@git.gcx.org:ios/lib/thekey.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@git.gcx.org:ios/lib/thekey.git", :tag => "#{s.version}" }
   s.platform     = :ios, '6.0'
   s.source_files = 'TheKey/*.{h,m}'
   s.public_header_files = 'TheKey/*.h'
